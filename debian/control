@@ -1,0 +1,14 @@
+Source: pdf-redact-tools
+Maintainer: Loic Dachary (OuoU) <loic@debian.org>
+Section: python
+Priority: optional
+Build-Depends: dh-python, python-all (>= 2.6.6-3), debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/micahflee/pdf-redact-tools
+
+Package: pdf-redact-tools
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, imagemagick, libimage-exiftool-perl
+Description: PDF Redact Tools helps with securely redacting and stripping
+ PDF Redact Tools helps with securely redacting and stripping metadata
+ from documents before publishing.

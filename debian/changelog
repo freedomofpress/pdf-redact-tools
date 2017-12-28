@@ -1,0 +1,8 @@
+pdf-redact-tools (0.1.2-1) unstable; urgency=low
+
+  * manually add copyright
+  * add gbp.conf
+  * source package automatically created by stdeb 0.8.5
+  * first package (Closes: #794841).
+
+ -- Loic Dachary (OuoU) <loic@debian.org>  Fri, 29 Dec 2017 00:58:14 +0100
